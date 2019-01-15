@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.SearchFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ekofilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:textColor="#f58356"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            android:text="EKONOMI" />
+
+        <TextView
+            android:id="@+id/sosfilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:textColor="#6e2f32"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            android:text="SOSIAL" />
+
+        <TextView
+            android:id="@+id/tanifilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:cursorVisible="false"
+            android:textColor="#198c70"
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            android:text="PERTANIAN" />
+        <TextView
+            android:id="@+id/ikanfilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:textSize="20sp"
+            android:textColor="#589ea5"
+            android:gravity="right"
+            android:cursorVisible="false"
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            android:text="PERIKANAN" />
+        <TextView
+            android:id="@+id/pendudukfilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:textSize="20sp"
+            android:textColor="@color/bg_main"
+            android:gravity="left"
+            android:cursorVisible="false"
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            android:text="KEPENDUDUKAN" />
+
+    </LinearLayout>
+</FrameLayout>
